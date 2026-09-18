@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enter — Mah-e-kana's Birthday Site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="stars-canvas"></canvas>
+    <div id="petals-layer"></div>
+
+    <div class="page-shell">
+      <span class="corner-flower tl" aria-hidden="true">🌷</span>
+      <span class="corner-flower br" aria-hidden="true">🌸</span>
+      <nav class="nav">
+        <a href="index.html" class="nav__brand">mah•e•kana</a>
+        <div class="nav__links">
+          <a href="index.html">home</a>
+        </div>
+      </nav>
+
+      <section class="login-wrap">
+        <div class="login-card" id="login-card">
+          <div class="hero__moon">🔒🌙</div>
+          <h2>Only she gets in</h2>
+          <p class="login-hint">
+            Enter her birthdate to unlock the rest of the site.
+          </p>
+
+          <form id="login-form" class="login-form" autocomplete="off">
+            <input
+              type="text"
+              inputmode="numeric"
+              id="password-input"
+              class="login-input"
+              placeholder="DD / MM / YYYY"
+              aria-label="Enter birthdate as password"
+              autofocus />
+            <p class="login-error" id="login-error" role="alert"></p>
+            <button
+              type="submit"
+              class="btn btn--primary"
+              style="justify-content: center">
+              Unlock 🌙
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        this door only opens for one person 🌕
+      </footer>
+    </div>
+
+    <div class="unlock-overlay" id="unlock-overlay">
+      <div style="text-align: center">
+        <div class="moon-big">🌕</div>
+        <p>welcome in, mah-e-kana</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

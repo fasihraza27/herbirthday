@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Mah-e-kana's Birthday Site</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="stars-canvas"></canvas>
+<div id="petals-layer"></div>
+
+<div class="page-shell">
+  <span class="corner-flower tl" aria-hidden="true">🌷</span>
+  <span class="corner-flower br" aria-hidden="true">🌸</span>
+  <nav class="nav">
+    <a href="index.html" class="nav__brand">mah•e•kana</a>
+    <div class="nav__links">
+      <a href="index.html">home</a>
+      <a href="gallery.html" class="is-active">gallery</a>
+      <a href="letters.html">letters</a>
+    </div>
+    <button class="nav__lock" id="lock-btn">lock 🔒</button>
+  </nav>
+
+  <section class="container" style="padding-top: 1.5rem;">
+    <p class="eyebrow center-text" style="display:block;">a little archive</p>
+    <h1 class="center-text">Our gallery</h1>
+    <p class="hero__sub center-text" style="margin-left:auto; margin-right:auto;">
+      Every photo worth keeping, sorted into their own little sections. Tap any picture to see it up close.
+    </p>
+
+    <div class="flower-divider" aria-hidden="true">
+      <span>🙄</span><span>🤷‍♂️</span><span>💃</span><span>😕</span
+          ><span>🥱</span>
+    </div>
+
+    <div id="gallery-sections"></div>
+  </section>
+
+  <footer class="site-footer">How the fuck i did all this for you😭😭</footer>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <button class="close-btn" id="lightbox-close" aria-label="Close">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+  <p class="lb-caption" id="lightbox-caption"></p>
+</div>
+
+<script src="script.js"></script>
+<script>requireUnlock();</script>
+<script>
+  document.getElementById('lock-btn').addEventListener('click', lockAndGoHome);
+</script>
+</body>
+</html>

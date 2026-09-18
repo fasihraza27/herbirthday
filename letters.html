@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letters — Mah-e-kana's Birthday Site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="stars-canvas"></canvas>
+    <div id="petals-layer"></div>
+
+    <div class="page-shell">
+      <span class="corner-flower tl" aria-hidden="true">🌷</span>
+      <span class="corner-flower br" aria-hidden="true">🌸</span>
+      <nav class="nav">
+        <a href="index.html" class="nav__brand">mah•e•kana</a>
+        <div class="nav__links">
+          <a href="index.html">home</a>
+          <a href="gallery.html">gallery</a>
+          <a href="letters.html" class="is-active">letters</a>
+        </div>
+        <button class="nav__lock" id="lock-btn">lock 🔒</button>
+      </nav>
+
+      <section class="container" style="padding-top: 1.5rem">
+        <p class="eyebrow center-text" style="display: block">words for you</p>
+        <h1 class="center-text">Letters</h1>
+        <p
+          class="hero__sub center-text"
+          style="margin-left: auto; margin-right: auto">
+          A few things I wanted to write down instead of just saying out loud.
+          Tap an envelope to open it.
+        </p>
+
+        <div class="flower-divider" aria-hidden="true">
+          <span>🙄</span><span>🤷‍♂️</span><span>💃</span><span>😕</span
+          ><span>🥱</span>
+        </div>
+
+        <div class="letters-grid" id="letters-grid"></div>
+     
+
+      <!-- FASIH SECTION -->
+<div class="fasih-letters-section">
+
+   <p class="eyebrow center-text" style="display: block">
+    as promised...
+  </p>
+
+  <h2 class="center-text">Presenting You What Fasih Is!</h2>
+
+  <p
+    class="hero__sub center-text"
+    style="margin-left: auto; margin-right: auto">
+       Because He's not how he looks like. 😭
+  </p>
+
+  <div class="letters-grid" id="fasih-letters-grid"></div>
+</div>
+
+   </section>
+
+      <footer class="site-footer">
+        You're literally the GOAT!! Itni efforts to mene Ashal k liye kabhi nahi
+        lin😭😭
+      </footer>
+    </div>
+
+    <div class="letter-modal" id="letter-modal">
+      <div class="letter-paper">
+        <span class="paper-flower" id="letter-modal-seal" aria-hidden="true"
+          >🌸</span
+        >
+        <button class="close-btn" id="letter-modal-close" aria-label="Close">
+          &times;
+        </button>
+        <h3 id="letter-modal-title"></h3>
+        <p id="letter-modal-body"></p>
+        <p class="signoff" id="letter-modal-signoff"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      requireUnlock();
+    </script>
+    <script>
+      document
+        .getElementById("lock-btn")
+        .addEventListener("click", lockAndGoHome);
+    </script>
+  </body>
+</html>
