@@ -538,85 +538,47 @@ Na bhi socho to naraz hue baghair ek baar inform krdena!!
     peek: "Hota hai",
     body: `**I'll never be OK!**
 
-I knew our end would not be OK! Tumhara curse bohat chota h mere aage! meri life fuck nahi hui tumhari hogai yr! Mein life mein tumhari wall banna chahta tha jispr se sbko guzarna pare tumhe kuch kehne k liye but I never knew k agar tum us wall k peeche se hatgain to ye wall chakna chur hojae gi! Mein chudgaya hun Mak-e-kana! Itna sochraha hun abhi tumhare baare mein k you cant imagine
+I knew our end would not be OK! Tumhara curse bohat chota h mere aage! meri life fuck nahi hui tumhari hogai yr! Mein life mein tumhari wall banna chahta tha jispr se sbko guzarna pare tumhe kuch kehne k liye but I never knew k agar tum us wall k peeche se hatgain to this wall would be shattered! Mein chudgaya hun Mak-e-kana! Itna sochraha hun abhi tumhare baare mein k you cant imagine!
 
-but OK i just want you to be happy and do the best in life! I'm sorry apne meri wajah se bohat kuch saha hai!! These were the best 5 months of my life! I told you na no one knows Fasih and i told you k mein apni jaanu ko bataunga! Hn I will tell it to you!! Mein chahta hun jb mein marne wala hun kisi ko to bata paun k hn duniya mein there is one human jo janta h fasih kis chutiye ka naam hai!!
+But OK I just want you to be happy and do the best in life! I'm sorry apne meri wajah se bohat kuch saha hai!! These were the best 5 months of my life! I told you na no one knows Fasih and i told you k mein apni jaanu ko bataunga! Hn I will tell it to you!! Mein chahta hun jb mein marne wala hun kisi ko to bata paun k hn duniya mein there is one human jo janta h fasih kis chutiye ka naam hai!!
 
-Meri zindagi kabhi aisi nahi rahegi!! I'll never forget you! aap sirf meri adat nahi zaroorat ho! mein nahi jee sakta yr aise! Sirf 1 din mein bukhar se phukraha hun but han i have to deal with it!! sahi rehna parega! Meri choro idk aap kese jiyogi! Ik thori din mein shayad apki mujhse baat krne ki adat ko aap overcome karlo! kia pata! I hope aisa hi ho!
+Meri zindagi kabhi itne maze ki nahi thi nor rahegi!! I'll never forget you! aap sirf meri adat nahi zaroorat ho! I cant live without you phati pari h abhi k kl se kia hoga mera! Sirf 1 din mein bukhar se phukraha hun but han i have to deal with it!! Sahi rehna parega! Meri choro idk aap kese jiyogi! Ik thori din mein shayad apki mujhse baat krne ki adat ko aap overcome karlo! kia pata! I hope aisa hi ho!
 
-Honestly mein ye nahi chahta! Mein chahta hun aap saare ghum duniya k bhula do bs mujhe na bhula pao! I'm selfish ik! pr nahi jee paunga yr! fuck my feelings! Ik aap akele is duniya ko handle nahi krsaktin! I want k aap seekh jao ye and hyper na hua karo pr phir bhi I want k mein apke dil mein humesha rahun! Ye spot nahi chorna mujhe kabhi bhi!! Mein nahi overcome krsakta is cheez ko!
-
-But OK! Please wapis Ajana! I'll wait for you!,
-    signoff: "— I'll Miss My HG😜"
-    `,
-  },
-     {
-    seal: "😣",
-    title: "In my Heart",
-    peek: "Always",
-    body: `**What you did!**
-
-I knew our end would not be OK! Tumhara curse bohat chota h mere aage! meri life fuck nahi hui tumhari hogai yr! Mein life mein tumhari wall banna chahta tha jispr se sbko guzarna pare tumhe kuch kehne k liye but I never knew k agar tum us wall k peeche se hatgain to ye wall chakna chur hojae gi! Mein chudgaya hun Mak-e-kana! Itna sochraha hun abhi tumhare baare mein k you cant imagine
-
-but OK i just want you to be happy and do the best in life! I'm sorry apne meri wajah se bohat kuch saha hai!! These were the best 5 months of my life! I told you na no one knows Fasih and i told you k mein apni jaanu ko bataunga! Hn I will tell it to you!! Mein chahta hun jb mein marne wala hun kisi ko to bata paun k hn duniya mein there is one human jo janta h fasih kis chutiye ka naam hai!!
-
-Meri zindagi kabhi aisi nahi rahegi!! I'll never forget you! aap sirf meri adat nahi zaroorat ho! mein nahi jee sakta yr aise! Sirf 1 din mein bukhar se phukraha hun but han i have to deal with it!! sahi rehna parega! Meri choro idk aap kese jiyogi! Ik thori din mein shayad apki mujhse baat krne ki adat ko aap overcome karlo! kia pata! I hope aisa hi ho!
-
-Honestly mein ye nahi chahta! Mein chahta hun aap saare ghum duniya k bhula do bs mujhe na bhula pao! I'm selfish ik! pr nahi jee paunga yr! fuck my feelings! Ik aap akele is duniya ko handle nahi krsaktin! I want k aap seekh jao ye and hyper na hua karo pr phir bhi I want k mein apke dil mein humesha rahun! Ye spot nahi chorna mujhe kabhi bhi!! Mein nahi overcome krsakta is cheez ko!
+Honestly mein ye nahi chahta! Mein chahta hun aap saare ghum duniya k bhula do bs mujhe na bhula pao! I'm selfish Ik! but kia karun pata nahi kia hoga! fuck my feelings! Ik aap akele is duniya ko handle nahi krsaktin for now! I want k aap seekh jao ye and hyper na hua karo pr phir bhi I want k mein apke dil mein humesha rahun! Ye spot nahi chorna mujhe kabhi bhi!! Mein nahi overcome krsakta is cheez ko!
 
 But OK! Please wapis Ajana! I'll wait for you!,
     signoff: "— I'll Miss My HG😜"
     `,
   },
-
 ];
 
 /* ---------- Fasih letters ---------- */
 const fasihLetters = [
   {
-    seal: "🧑‍💻",
-    title: "Letter Title 1",
-    peek: "short preview here",
-    body: `Write your first letter here.
+    seal: "😣",
+    title: "Me",
+    peek: "TO MY JAANU! ONLYYYY.....",
+    body: `
+    OK so I'll write everything about me in only one letter because ik you have figured most of these shits by yourself!! Thank you for noticing me!! That's ROMANTIC IRL! IDK ABT TABARUK PAKRANA😗
+    
+    I'm very strong emotiionally like litr puri zindagi mene kisi pr rely nahi kia on how I feel about anything!! (Chahe mujhe achi lage ya buri!!) like I used to process everything in my head! bohat sochta tha shit k baare mein and uska koi solution nikal kr i was like ok fuck it! hota hai life hai! Mein zindagi bhar itna bully kia gaya hun k mujhe koi cheez buri lagna hi bnd hogai thi! 
 
-You can write as much as you want.
+    Lemme tell you more! Tumhe pata hai I never ask for anyones help kiunke mujhe pehle se sb aata hai! Yk why! kiunke i was never offered k koi mere kaam mein kabhi koi help krde! I was always the one jo sbki help krne k liye ready hota hun! Baaqion ko thori farq parta tha meri shits se!!
 
-Just like your existing letters.`,
-    signoff: "— Fasih",
-  },
+    Mein bolta hun mera subconscious mind bohat strong hai! mein isko jo feed krta hun wo maanleta hai! Its not like that! I've learned to compromise actually and isi wajah se agar mujhe farq pare bhi to i just dont show it!!!
+    
+    UNLESS!!!!
 
-  {
-    seal: "😭",
-    title: "Letter Title 2",
-    peek: "another little preview",
-    body: `Write your second letter here.
+    4th of April mene kisi se baat ki and she actually listens to me!! I now have a person jispr mein totally rely karsakta hun! pata hai mein logon pr trust nahi krta chahe wo koi bhi ho isiliye i dont tell them a shit abt me but tumpr andha trust hai bhai!😭 Honestly i never imagined mein apni insecurities kisi ko bataunga!! Since you came into my life mere pas koi hai jisko mein share krsakta hun what i feel!! 
 
-This can be completely different from the first one.`,
-    signoff: "— Fasih",
-  },
+    Tumhein yaad hai I once asked you k yr how do you make edits and mene sirf idea manga tha! Ig it was shayad zindagi mein pehli baar k someone did something for me without me asking them karne ko! I asked you k kese krti ho and you made it for me! I cant even tell how good it felt!!😋 Mein group projects sice school to university ab tk akele krleta hun! and you did smth for me! Thank you😙
+    
+    Hn although mein ye compromisation wali shit na chor paun! Although for you i dont have to compromise anything aap mera khud itna khayal krti ho! For the first time in life you made me feel being noticed✨ Thank you Jaanu!! 
 
-  {
-    seal: "🙄",
-    title: "Letter Title 3",
-    peek: "you'll understand",
-    body: `Write your third letter here.`,
-    signoff: "— Fasih",
-  },
+    You evolved me! Love you Jaanu
 
-  {
-    seal: "🤷‍♂️",
-    title: "Letter Title 4",
-    peek: "what can I say",
-    body: `Write your fourth letter here.`,
-    signoff: "— Fasih",
-  },
-
-  {
-    seal: "🫶",
-    title: "Letter Title 5",
-    peek: "the final one",
-    body: `Write your fifth letter here.`,
-    signoff: "— Fasih",
+.`,
+    signoff: "— Fasih it is",
   },
 ];
 
