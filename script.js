@@ -477,7 +477,8 @@ I love you Mahe for being the Tea spiller and also for har waqt bakwas krte rehn
     I literally cant choose between you and ashal!! And I dont even want to!! Youre the person jisko mein uthte sath hi jawab deta hun!! but youre not nerdy enough to understand what you mean to me!!!
     
     Always stay in my life!!! kahin jana nahi warn mujhe bohat ghussa ata h!! I mean it!! You're what warisha was to ashal when he didnt had a crush on her!! honestly our friendship is more goated than there's
-    
+
+    Last of all!! yk my routine na! 8:00 to 2:30 university ----> then office (3-7) -----> directly to aptech (7-9) -----> then gym 10:30 baje ghar mein ghusta hun mein! Is life mein you just by staying makes a huge difference! Meri saari emotional distress khatam krdeti ho just by msging once! Chahe wo kuch bhi ho! I'm not lying when i say you enhance me just by staying
     Bohat likh dia ajeeb!! Itne saare Efforts mujhse nikalwana is not a piece of cake!! know you're worth Mahe`,
     signoff: "— I love you... and I'm always proud of you",
   },
