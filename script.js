@@ -89,7 +89,7 @@ function lockAndGoHome() {
 /* The password is her birthdate. We accept a few friendly formats:
    24102009 / 24/10/2009 / 24-10-2009 / 24.10.2009 — only the digits
    are compared. Change BIRTH_DIGITS below if you ever need to update it. */
-const BIRTH_DIGITS = "24102009";
+const BIRTH_DIGITS = "24102010";
 
 function initLoginPage() {
   const form = document.getElementById("login-form");
@@ -562,7 +562,7 @@ const fasihLetters = [
     body: `
     OK so I'll write everything about me in only one letter because ik you have figured most of these shits by yourself!! Thank you for noticing me!! That's ROMANTIC IRL! IDK ABT TABARUK PAKRANA😗
     
-    I'm very strong emotiionally like litr puri zindagi mene kisi pr rely nahi kia on how I feel about anything!! (Chahe mujhe achi lage ya buri!!) like I used to process everything in my head! bohat sochta tha shit k baare mein and uska koi solution nikal kr i was like ok fuck it! hota hai life hai! Mein zindagi bhar itna bully kia gaya hun k mujhe koi cheez buri lagna hi bnd hogai thi! 
+    I'm very strong emotiionally like litr puri zindagi mene kisi pr rely nahi kia on how I feel about anything!! (Chahe mujhe achi lage ya buri!!) like I used to process everything in my head! bohat sochta tha shit k baare mein and uska koi solution nikal kr i was like ok fuck it! hota hai life hai! Mein zindagi bhar itna bully kia gaya hun k mujhe koi cheez buri lagna hi bnd hogai (Bully as in har waqt mera mazak urna!) I mean litr adhe school ko mujhse issues the XD! 
 
     Lemme tell you more! Tumhe pata hai I never ask for anyones help kiunke mujhe pehle se sb aata hai! Yk why! kiunke i was never offered k koi mere kaam mein kabhi koi help krde! I was always the one jo sbki help krne k liye ready hota hun! Baaqion ko thori farq parta tha meri shits se!!
 
@@ -570,11 +570,11 @@ const fasihLetters = [
     
     UNLESS!!!!
 
-    4th of April mene kisi se baat ki and she actually listens to me!! I now have a person jispr mein totally rely karsakta hun! pata hai mein logon pr trust nahi krta chahe wo koi bhi ho isiliye i dont tell them a shit abt me but tumpr andha trust hai bhai!😭 Honestly i never imagined mein apni insecurities kisi ko bataunga!! Since you came into my life mere pas koi hai jisko mein share krsakta hun what i feel!! 
+    4th of April mene kisi se baat ki and she actually listens to me!! I now have a person jispr mein totally rely karsakta hun! pata hai mein logon pr trust nahi krta chahe wo koi bhi ho isiliye i dont tell them a shit abt me but uspr andha trust hai bhai!😭 Honestly i never imagined mein apni insecurities kisi ko bataunga!! Since she came into my life mere pas koi hai jisko mein share krsakta hun what i feel!! 
 
-    Tumhein yaad hai I once asked you k yr how do you make edits and mene sirf idea manga tha! Ig it was shayad zindagi mein pehli baar k someone did something for me without me asking them karne ko! I asked you k kese krti ho and you made it for me! I cant even tell how good it felt!!😋 Mein group projects sice school to university ab tk akele krleta hun! and you did smth for me! Thank you😙
+    Tumhein yaad hai I once asked you k yr how do you make edits and mene sirf idea manga tha! Ig it was shayad zindagi mein pehli baar k someone did something for me without me asking them karne ko! I asked you k kese krti ho and you made it for me! I cant even tell how good it felt!!😋 Even Mein group projects since school to university ab tk akele krleta hun kiunke help nhi krte bhai log!! and you did smth for me! Thank you😙
     
-    Hn although mein ye compromisation wali shit na chor paun! Although for you i dont have to compromise anything aap mera khud itna khayal krti ho! For the first time in life you made me feel being noticed✨ Thank you Jaanu!! 
+    Hn although mein ye compromisation wali shit na chor paun! Although for you i dont have to compromise anything aap mera khud itna khayal krti ho! For the first time in life someone made me feel being noticed✨ Thank you Jaanu!! 
 
     You evolved me! Love you Jaanu
 
