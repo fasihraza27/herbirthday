@@ -121,10 +121,7 @@ function initLoginPage() {
   });
 }
 
-/* ---------- 5. Gallery page logic ---------- */
-/* Add photos to /images/gallery/ then list filenames + captions below.
-   The gallery is split into sections so you can organise lots of
-   pictures — add, rename, or remove whole sections as you like. */
+
 const gallerySections = [
   {
     title: "Us",
