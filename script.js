@@ -533,16 +533,16 @@ Na bhi socho to naraz hue baghair ek baar inform krdena!!
      {
     seal: "😭",
     title: "We knew",
-    peek: "Hota hai",
+    peek: "18 September",
     body: `**I'll never be OK!**
 
 I knew our end would not be OK! Tumhara curse bohat chota h mere aage! meri life fuck nahi hui tumhari hogai yr! Mein life mein tumhari wall banna chahta tha jispr se sbko guzarna pare tumhe kuch kehne k liye but I never knew k agar tum us wall k peeche se hatgain to this wall would be shattered! Mein chudgaya hun Mak-e-kana! Itna sochraha hun abhi tumhare baare mein k you cant imagine!
 
 But OK I just want you to be happy and do the best in life! I'm sorry apne meri wajah se bohat kuch saha hai!! These were the best 5 months of my life! I told you na no one knows Fasih and i told you k mein apni jaanu ko bataunga! Hn I will tell it to you!! Mein chahta hun jb mein marne wala hun kisi ko to bata paun k hn duniya mein there is one human jo janta h fasih kis chutiye ka naam hai!!
 
-Meri zindagi kabhi itne maze ki nahi thi nor rahegi!! I'll never forget you! aap sirf meri adat nahi zaroorat ho! I cant live without you phati pari h abhi k kl se kia hoga mera! Sirf 1 din mein bukhar se phukraha hun but han i have to deal with it!! Sahi rehna parega! Meri choro idk aap kese jiyogi! Ik thori din mein shayad apki mujhse baat krne ki adat ko aap overcome karlo! kia pata! I hope aisa hi ho!
+Meri zindagi kabhi itne maze ki nahi thi nor rahegi!! I'll never forget you! aap sirf meri adat nahi zaroorat ho! IDK phati pari h abhi k kl se kia hoga mera! Sirf 1 din mein bukhar se phukraha hun but han i have to deal with it!! Sahi rehna parega! Meri choro idk aap kesi hogi rn apke to ghar wale bhi upset hain apse! Ik thori din mein shayad apki mujhse baat krne ki adat ko aap overcome karlo! kia pata! I hope aisa hi ho! 
 
-Honestly mein ye nahi chahta! Mein chahta hun aap saare ghum duniya k bhula do bs mujhe na bhula pao! I'm selfish Ik! but kia karun pata nahi kia hoga! fuck my feelings! Ik aap akele is duniya ko handle nahi krsaktin for now! I want k aap seekh jao ye and hyper na hua karo pr phir bhi I want k mein apke dil mein humesha rahun! Ye spot nahi chorna mujhe kabhi bhi!! Mein nahi overcome krsakta is cheez ko!
+Honestly mein ye nahi chahta! Mein chahta hun aap saare ghum duniya k bhula do bs mujhe na bhula pao! I'm selfish Ik! but kia karun pata nahi kia hoga! fuck my feelings! Ik aap akele is duniya ko handle nahi krsaktin for now! I want k aap seekh jao ye and hyper na hua karo itna! Bilkul insaan bnjao! Anyways pr phir bhi I want k mein apke dil mein humesha rahun! Ye spot nahi chorna mujhe kabhi bhi!! Mein nahi overcome krsakta is cheez ko! Although I have a gut feeling k aap wapis ajaogi mahe ho jaanu ho meri, you're not warisha! Although agar aap na bhi ain tb bhi you'll always be in my heart! Apni zindagi k kisi bhi time pr aap mujhe msg karengi, I'll always be available for you!!!
 
 But OK! Please wapis Ajana! I'll wait for you!,
     signoff: "— I'll Miss My HG😜"
