@@ -530,6 +530,7 @@ Na bhi socho to naraz hue baghair ek baar inform krdena!!
     signoff: "— WE ARE SO MAIN CHARACHTER VIBE BTW😜",
   },
 
+    
      {
     seal: "😭",
     title: "We knew",
@@ -545,9 +546,44 @@ Meri zindagi kabhi itne maze ki nahi thi nor rahegi!! I'll never forget you! aap
 Honestly mein ye nahi chahta! Mein chahta hun aap saare ghum duniya k bhula do bs mujhe na bhula pao! I'm selfish Ik! but kia karun pata nahi kia hoga! fuck my feelings! Ik aap akele is duniya ko handle nahi krsaktin for now! I want k aap seekh jao ye and hyper na hua karo itna! Bilkul insaan bnjao! Anyways pr phir bhi I want k mein apke dil mein humesha rahun! Ye spot nahi chorna mujhe kabhi bhi!! Mein nahi overcome krsakta is cheez ko! Although I have a gut feeling k aap wapis ajaogi mahe ho jaanu ho meri, you're not warisha! Although agar aap na bhi ain tb bhi you'll always be in my heart! Apni zindagi k kisi bhi time pr aap mujhe msg karengi, I'll always be available for you!!!
 
 But OK! Please wapis Ajana! I'll wait for you!,
-    signoff: "— I'll Miss My HG😜"
+`,
+signoff: "— I'll Miss My HG😜",
+  },
+
+   {
+    seal: "🥴",
+    title: "Just You",
+    peek: "Defining someone who was born on 24th of October",
+    body: `**Damn Mumma(Samia Aunty)**
+
+Yk what... I mean when I call you the most beautiful girl, Honestly, I don't think “beautiful” is even enough to describe you.
+
+You're not just beautiful because of your face, your eyes, your smile, or the way you look. You're beautiful in the way you talk, the way you laugh, the way you get excited about random little things, the way you care about people consciously or subconsciously, and even in the little things you probably don't realize you do....
+
+You're the kind of beautiful that doesn't need a perfect picture, perfect hair, or a perfect outfit. Somehow, even when you're doing absolutely nothing, you're still the person my eyes would find in a room full of people, what i mean by it is aap itni piyari! itni achi hain k even if you dont take a shower for a month or more... Youre beauty would be the same it is now!.
+
+And it's not just that I think you're beautiful. It's the way I see you. There could be a hundred's girls standing in front of me telling me that they love me and ill fs tell them that she does it better and also somehow, I'd still look for you. It's about the fact that nobody else looks like you, nobody else feels like you, and nobody else has the effect on me that you do... hence no one could ever replace you...
+
+Your smile can genuinely change my mood. Your voice can make an ordinary conversation feel special. Even your little habits and the things you consider flaws somehow become things I find beautiful.
+
+So when I say you're the most beautiful girl, I don't mean you're competing with every other girl in the world. It means or larkion se apka comparision ho ye unki aukaat hi nahi yayayyayayayyyyy😋
+
+Ye chand sa roshan chehra! Ankhon ka rung sunhera (thora sa),
+    signoff: "— I love you the most :)",
     `,
   },
+
+   {
+    seal: "🥴",
+    title: "Just You (2)",
+    peek: "Defining someone who was born on 24th of October",
+    body: `**Damn Mumma and Papa! litr Leonardo Da Vinci stuff you did...**
+
+,
+    signoff: "— I love you the mostestestest x infinity :)",
+    `,
+  },
+
 ];
 
 /* ---------- Fasih letters ---------- */
@@ -573,7 +609,7 @@ const fasihLetters = [
     
     Hn although mein ye compromisation wali shit na chor paun! Although for you i dont have to compromise anything aap mera khud itna khayal krti ho! For the first time in life someone made me feel being noticed✨ Thank you Jaanu!! 
 
-    You evolved me! Love you Jaanu
+    You evolved me! Love you Jaanu....!!! 
 
 .`,
     signoff: "— Fasih it is",
