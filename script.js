@@ -587,9 +587,20 @@ Ye chand sa roshan chehra! Ankhon ka rung sunhera (thora sa),
     peek: "Defining someone who was born on 24th of October",
     body: `**Damn Mumma and Papa! litr Leonardo Da Vinci stuff you did...**
 
-,
-    signoff: "— I love you the mostestestest x infinity :)",
-    `,
+    IDK where to start from!😭😭😢 but lets start from your hairs! Honestly speaking you look the most gorgeous person in everyway you hairs are! Literally your curly hairs have my heart but also after keratin look makes me blush too! Most importantly when strands of hairs comes on your face!! it looks so good! Personally I love your hijabi look alot! I'm in love with it!! but when your hairs are not tied and gives that bit of a wavy vibe from the end! Kaatlina lagti ho qasamey XD ( Not saying you qasim qasai )
+
+    I wanted to tell you about your eyes but nah! will talk about them at the end! So You're cheeks it is! There are 3 states of youre cheeks! First, when youre not making any face expressions or not talking! The straight face cheeks! just 2 cushions XD which are V shaped aligned! Second the pout wale cheeks😙 whenever you pout jaanu or halka sa muskuratin hain aap! you have that thora sa different but same same look! like halke se curved cheeks but unko kaat nahi sakte! Like usme volume nahi hota😋 you look super cute in it!! But the best one is when You have that smile 😊 is tareeke ki!!! Those inflated cheeks with the smile line and cheek line and the dimple faahhhhhhhhh! I'm so melting every time I see you like that! btw rote waqt aap teeno states ko ek saath use karletin to I didnt talk about it!! 
+
+    I dont know how to define anyones nose! but i know jb apki tabiyat kharab hoti hai and youre nose looks red! blushy vide jb deti! Ohmyyyyessss! kia cutie lagti ho aap! AAG LAGADI AAG LAGADI AAG LAGADI! and and and just to tell you if you havent noticed it in last 16 years of your life jaanu! your nose to forehead ratio is perfect also your nose gives that non pointy vibe kia yummm lagtin aaap!😚
+
+    You give alot of expressions from your lips btw but I'll just tell you about the one's i love the most!! the backward smile looks so good on you jaanu! but usse ziada the pout! You look like k apko khajaun😭😭 khajaun is a metaphor😭😭 I'll not eat you! you're my jaanu! and most importantly when you're laughing!! I just love you more and more every time you laugh😋
+
+    Hn one more thing!!! i love the way how you walk XD!! kiunke USSSS hogaya! mein bhi teda chalta hun XD! mujhe bhi chalane k liye koi saath mein hona is important jo mujhe pakar kr seedha kare!😭😭 We should go on a tedi walk btw😙
+    
+    
+    Anyways TING TING TADAO,
+`,
+signoff: "— I love you the mostestestest x infinity :)",
   },
 
 ];
