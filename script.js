@@ -39,7 +39,15 @@
     if (!reduceMotion) requestAnimationFrame(draw);
   }
 
-  window.addEventListener("resize", resize);
+  // On phones the URL bar shows/hides while scrolling and fires "resize".
+  // Only rebuild the stars when the width really changes (e.g. rotating).
+  let lastW = window.innerWidth;
+  window.addEventListener("resize", () => {
+    if (window.innerWidth !== lastW) {
+      lastW = window.innerWidth;
+      resize();
+    }
+  });
   resize();
   requestAnimationFrame(draw);
 })();
@@ -569,8 +577,8 @@ Your smile can genuinely change my mood. Your voice can make an ordinary convers
 So when I say you're the most beautiful girl, I don't mean you're competing with every other girl in the world. It means or larkion se apka comparision ho ye unki aukaat hi nahi yayayyayayayyyyy😋
 
 Ye chand sa roshan chehra! Ankhon ka rung sunhera (thora sa),
+`,
     signoff: "— I love you the most :)",
-    `,
   },
 
    {
@@ -688,11 +696,105 @@ function initLettersPage() {
   });
 }
 
+/* ---------- 6b. Wish page (cake + wish jar) ---------- */
+/* Edit these little notes freely — they pop out of the wish jar. */
+const wishNotes = [
+  "May your year be as goated as you are 🍰",
+  "You deserve this universe! Period...🎂",
+  "Another year of being iconic. yayayayyay!! 👑",
+  "I hope aap humesha giggle krti rahein! 😆",
+  "May I get the chance of being your bestfriend and lover in every universe 💌",
+  "You're not allowed to be sad next year. Rules are rules 🥱",
+  "Hope your year is full of cool stuff that you love! (including me👅) ✨",
+  "You make the world alot cuter just by being in it 🐰",
+  "You're litr the light when I'm surrounded by dark shadows!! Be like it🥺",
+  "Eat. Laugh. Repeat. It's your day, jaanu 🌙",
+  "Sending you a thousand virtual hugs and a forehead kiss😙🤗",
+  "Your year ahead is going to be so cool, I can feel it 🌷",
+];
+
+function launchConfetti(count) {
+  const layer = document.createElement("div");
+  layer.className = "confetti-layer";
+  document.body.appendChild(layer);
+  const bits = ["🎉", "🎊", "💖", "🌸", "✨", "⭐", "🎀", "💗"];
+  const n = count || (window.innerWidth < 600 ? 28 : 50);
+  for (let i = 0; i < n; i++) {
+    const b = document.createElement("span");
+    b.className = "confetti-bit";
+    b.textContent = bits[Math.floor(Math.random() * bits.length)];
+    b.style.left = Math.random() * 100 + "vw";
+    b.style.fontSize = 0.9 + Math.random() * 1.1 + "rem";
+    b.style.setProperty("--dx", Math.random() * 160 - 80 + "px");
+    b.style.setProperty("--rot", Math.random() * 720 - 360 + "deg");
+    b.style.animationDuration = 2.4 + Math.random() * 2.2 + "s";
+    b.style.animationDelay = Math.random() * 0.6 + "s";
+    layer.appendChild(b);
+  }
+  setTimeout(() => layer.remove(), 6000);
+}
+
+function initWishPage() {
+  const cake = document.getElementById("cake-wrap");
+  if (!cake) return;
+
+  const msg = document.getElementById("wish-msg");
+  const blowBtn = document.getElementById("blow-btn");
+  const relightBtn = document.getElementById("relight-btn");
+  const jarBtn = document.getElementById("jar-btn");
+  const noteEl = document.getElementById("note-card");
+  const countEl = document.getElementById("note-count");
+
+  let out = false;
+  function blow() {
+    if (out) return;
+    out = true;
+    cake.classList.add("is-out");
+    msg.textContent = "wish made! now keep it a secret 🤫✨";
+    blowBtn.hidden = true;
+    relightBtn.hidden = false;
+    launchConfetti();
+  }
+  function relight() {
+    out = false;
+    cake.classList.remove("is-out");
+    msg.textContent = "make a wish, then tap the cake 🕯️";
+    blowBtn.hidden = false;
+    relightBtn.hidden = true;
+  }
+  cake.addEventListener("click", blow);
+  blowBtn.addEventListener("click", blow);
+  relightBtn.addEventListener("click", relight);
+
+  let order = [];
+  let pulled = 0;
+  function nextNote() {
+    if (!order.length) {
+      order = wishNotes.map((_, i) => i).sort(() => Math.random() - 0.5);
+    }
+    return wishNotes[order.pop()];
+  }
+  jarBtn.addEventListener("click", () => {
+    jarBtn.classList.remove("is-shaking");
+    void jarBtn.offsetWidth;
+    jarBtn.classList.add("is-shaking");
+    setTimeout(() => {
+      noteEl.textContent = nextNote();
+      noteEl.classList.remove("is-new");
+      void noteEl.offsetWidth;
+      noteEl.classList.add("is-new");
+      pulled++;
+      countEl.textContent = "notes opened: " + pulled + " 💌";
+    }, 350);
+  });
+}
+
 /* ---------- 7. Run relevant init on load ---------- */
 document.addEventListener("DOMContentLoaded", () => {
   initLoginPage();
   initGalleryPage();
   initLettersPage();
+  initWishPage();
 });
 
 

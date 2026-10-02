@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Make a wish — Mah-e-kana's Birthday Site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="stars-canvas"></canvas>
+    <div id="petals-layer"></div>
+
+    <div class="page-shell">
+      <span class="corner-flower tl" aria-hidden="true">🌷</span>
+      <span class="corner-flower br" aria-hidden="true">🌸</span>
+      <nav class="nav">
+        <a href="index.html" class="nav__brand">mah•e•kana</a>
+        <div class="nav__links">
+          <a href="index.html">home</a>
+          <a href="wish.html" class="is-active">Wish</a>
+          <a href="gallery.html">gallery</a>
+          <a href="letters.html">letters</a>
+        </div>
+        <button class="nav__lock" id="lock-btn">lock 🔒</button>
+      </nav>
+
+      <section class="container" style="padding-top: 1.5rem">
+        <p class="eyebrow center-text" style="display: block">one last surprise</p>
+        <h1 class="center-text">Make a wish 🎂</h1>
+        <p class="hero__sub center-text" style="margin-left: auto; margin-right: auto">
+          I can't be there with a real cake, so here's a tiny one just for you.
+          Close your eyes, wish for something big, then blow out the candles!
+        </p>
+
+        <div class="wish-stage">
+          <div class="cake-wrap" id="cake-wrap" role="button" tabindex="0" aria-label="Tap the cake to blow out the candles">
+            <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- plate -->
+              <ellipse cx="150" cy="270" rx="135" ry="17" fill="#f3e3ff" />
+              <ellipse cx="150" cy="266" rx="135" ry="15" fill="#ffffff" opacity="0.9" />
+
+              <!-- bottom tier -->
+              <rect x="40" y="158" width="220" height="104" rx="26" fill="#ffc2d9" />
+              <path d="M40 178 Q40 158 60 158 H240 Q260 158 260 178 Q238 202 216 178 Q194 202 172 178 Q150 202 128 178 Q106 202 84 178 Q62 202 40 178 Z" fill="#ff9ec4" />
+              <!-- sprinkles -->
+              <g stroke-linecap="round" stroke-width="4">
+                <line x1="62" y1="214" x2="68" y2="208" stroke="#fff3b0" />
+                <line x1="78" y1="246" x2="86" y2="246" stroke="#b9e4ff" />
+                <line x1="226" y1="212" x2="232" y2="218" stroke="#d6c4ff" />
+                <line x1="238" y1="240" x2="244" y2="234" stroke="#fff3b0" />
+                <line x1="212" y1="250" x2="220" y2="250" stroke="#b9e4ff" />
+                <line x1="104" y1="252" x2="108" y2="246" stroke="#d6c4ff" />
+              </g>
+
+              <!-- top tier -->
+              <rect x="70" y="100" width="160" height="72" rx="22" fill="#fff4f8" />
+              <path d="M70 118 Q70 100 90 100 H210 Q230 100 230 118 Q214 140 198 118 Q182 140 166 118 Q150 140 134 118 Q118 140 102 118 Q86 140 70 118 Z" fill="#ffb3d1" />
+              <circle cx="96" cy="150" r="4" fill="#ffd1e6" />
+              <circle cx="204" cy="152" r="4" fill="#ffd1e6" />
+
+              <!-- candles -->
+              <g>
+                <rect x="105" y="62" width="10" height="40" rx="4" fill="#a8d8ff" />
+                <rect x="145" y="58" width="10" height="44" rx="4" fill="#ffe27a" />
+                <rect x="185" y="62" width="10" height="40" rx="4" fill="#cdb4ff" />
+                <g stroke="#ffffff" stroke-width="2.5" opacity="0.7" stroke-linecap="round">
+                  <line x1="105" y1="74" x2="115" y2="70" />
+                  <line x1="105" y1="88" x2="115" y2="84" />
+                  <line x1="145" y1="70" x2="155" y2="66" />
+                  <line x1="145" y1="84" x2="155" y2="80" />
+                  <line x1="185" y1="74" x2="195" y2="70" />
+                  <line x1="185" y1="88" x2="195" y2="84" />
+                </g>
+              </g>
+
+              <!-- flames -->
+              <g class="flame" style="animation-delay: 0s">
+                <path d="M110 60 C101 48 107 40 110 30 C113 40 119 48 110 60 Z" fill="#ffc94d" />
+                <path d="M110 58 C106 51 109 46 110 42 C111 46 114 51 110 58 Z" fill="#fff6c2" />
+              </g>
+              <g class="flame" style="animation-delay: 0.15s">
+                <path d="M150 56 C141 44 147 36 150 26 C153 36 159 44 150 56 Z" fill="#ffc94d" />
+                <path d="M150 54 C146 47 149 42 150 38 C151 42 154 47 150 54 Z" fill="#fff6c2" />
+              </g>
+              <g class="flame" style="animation-delay: 0.3s">
+                <path d="M190 60 C181 48 187 40 190 30 C193 40 199 48 190 60 Z" fill="#ffc94d" />
+                <path d="M190 58 C186 51 189 46 190 42 C191 46 194 51 190 58 Z" fill="#fff6c2" />
+              </g>
+
+              <!-- smoke puffs (shown when blown out) -->
+              <g class="smoke" fill="#ffffff" opacity="0.8">
+                <circle cx="110" cy="48" r="6" />
+                <circle cx="150" cy="44" r="7" />
+                <circle cx="190" cy="48" r="6" />
+              </g>
+
+              <!-- face -->
+              <g class="cake-face-blink">
+                <ellipse cx="112" cy="222" rx="6" ry="8" fill="#4a2e5c" />
+                <ellipse cx="188" cy="222" rx="6" ry="8" fill="#4a2e5c" />
+                <circle cx="114" cy="219" r="2.3" fill="#fff" />
+                <circle cx="190" cy="219" r="2.3" fill="#fff" />
+              </g>
+              <ellipse cx="94" cy="237" rx="13" ry="7" fill="#ff6f9f" opacity="0.5" />
+              <ellipse cx="206" cy="237" rx="13" ry="7" fill="#ff6f9f" opacity="0.5" />
+              <path class="mouth-smile" d="M138 232 Q150 247 162 232" fill="none" stroke="#4a2e5c" stroke-width="3.5" stroke-linecap="round" />
+              <g class="mouth-open">
+                <ellipse cx="150" cy="238" rx="8" ry="9" fill="#a62b5e" />
+                <ellipse cx="150" cy="243" rx="5" ry="3.5" fill="#ff8fb5" />
+              </g>
+            </svg>
+          </div>
+
+          <p class="wish-msg" id="wish-msg" aria-live="polite">make a wish, then tap the cake 🕯️</p>
+
+          <div class="wish-actions">
+            <button class="btn btn--primary" id="blow-btn" type="button">Blow the candles 💨</button>
+            <button class="btn btn--cute" id="relight-btn" type="button" hidden>Light them again 🕯️</button>
+          </div>
+        </div>
+
+        <div class="flower-divider" aria-hidden="true">
+          <span>🌸</span><span>🎀</span><span>🧁</span><span>🎀</span><span>🌸</span>
+        </div>
+
+        <div class="jar-section">
+          <p class="eyebrow center-text" style="display: block; margin-bottom: 0.4rem">a box of tiny wishes</p>
+          <h2 class="center-text">Tap the box 💌</h2>
+          <button class="jar-btn" id="jar-btn" type="button" aria-label="Pull a wish out of the jar">📦</button>
+          <div class="note-card" id="note-card" aria-live="polite">shake the box to get a little note for you ✨</div>
+          <p class="note-count" id="note-count">notes opened: 0 💌</p>
+        </div>
+      </section>
+
+      <footer class="site-footer">happy birthday, Chanda. I hope today feels like everything you wanted to have today</footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      requireUnlock();
+    </script>
+    <script>
+      document.getElementById("lock-btn").addEventListener("click", lockAndGoHome);
+      document.getElementById("cake-wrap").addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          this.click();
+        }
+      });
+    </script>
+  </body>
+</html>
