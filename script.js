@@ -129,14 +129,16 @@ function initLoginPage() {
   });
 }
 
-
 const gallerySections = [
   {
     title: "Us",
     note: "every photo of the two of us worth keeping",
     photos: [
       { src: "images/gallery/us-1.jpeg", caption: "MY Sher😚" },
-      { src: "images/gallery/us-2.jpeg", caption: "We are Mentally Retarded!😭😭" },
+      {
+        src: "images/gallery/us-2.jpeg",
+        caption: "We are Mentally Retarded!😭😭",
+      },
       { src: "images/gallery/throwback-3.jpeg", caption: "Slayeddddd...!!!  " },
       { src: "images/gallery/us-4.jpeg", caption: "My Jaanu😗" },
     ],
@@ -147,7 +149,10 @@ const gallerySections = [
     photos: [
       { src: "images/gallery/her-3.jpeg", caption: "Nach Siraekan nach💃💃" },
       { src: "images/gallery/her-2.jpeg", caption: "Curly hairs baddiee😎😋" },
-      { src: "images/gallery/chaos-1.jpeg", caption: "Kia cutie lagrahi ho bhai....SHOWWWW😭😭" },
+      {
+        src: "images/gallery/chaos-1.jpeg",
+        caption: "Kia cutie lagrahi ho bhai....SHOWWWW😭😭",
+      },
       { src: "images/gallery/her-4.jpeg", caption: "Chilghozi✨🤷‍♀️" },
     ],
   },
@@ -156,7 +161,10 @@ const gallerySections = [
     note: "the unhinged, unfiltered, very real moments",
     photos: [
       { src: "images/gallery/chaos-3.jpeg", caption: "Lelia SS XD" },
-      { src: "images/gallery/chaos-2.jpeg", caption: "Dhund kr nikali showww😎" },
+      {
+        src: "images/gallery/chaos-2.jpeg",
+        caption: "Dhund kr nikali showww😎",
+      },
       { src: "images/gallery/her-1.jpeg", caption: "Ruko!! ab lelo SS😭" },
       { src: "images/gallery/chaos-4.jpeg", caption: "Biceps to hain fr👊" },
     ],
@@ -165,10 +173,19 @@ const gallerySections = [
     title: "Throwbacks",
     note: "the old ones that still make us laugh",
     photos: [
-      { src: "images/gallery/throwback-1.jpeg", caption: "Is aurat ki college mein bezatti hogai😭😭" },
+      {
+        src: "images/gallery/throwback-1.jpeg",
+        caption: "Is aurat ki college mein bezatti hogai😭😭",
+      },
       { src: "images/gallery/throwback-2.jpeg", caption: "Santra🙂" },
-      { src: "images/gallery/us-3.jpeg", caption: "Bhai or pics pleaseeee!! HAHAHHAHA😣" },
-      { src: "images/gallery/throwback-4.jpeg", caption: "Ao mein dikhati what biceps looks like😏" },
+      {
+        src: "images/gallery/us-3.jpeg",
+        caption: "Bhai or pics pleaseeee!! HAHAHHAHA😣",
+      },
+      {
+        src: "images/gallery/throwback-4.jpeg",
+        caption: "Ao mein dikhati what biceps looks like😏",
+      },
     ],
   },
 ];
@@ -259,17 +276,17 @@ And this is where i was mistaken!! ghalti hogaya malik! bhari mistake hogaya😭
 
 Sarcastically speaking, of course!! SHUTAAAPPPP....!
 
-I followed you. At that point, you didn't follow me back Ajeeeebb!! But as usual meri adat k mutabik i used like your stories!! Dont feel special! wo to mein sbki krta hun! kisi ki bhi story kuch bhi ho!! i jus dont give a fuck when Im liking stories.
+I followed you. At that point, you didn't follow me back Ajeeeebb!! But as usual meri adat k mutabik i used like your stories!! Dont feel special You are wo alag baat hai huhhhh! Although wo to mein sbki krta hun! kisi ki bhi story kuch bhi ho!! i just like stories.
 
 So naturally, I kept liking your stories.
 
-And to your credit, as a very kind and incredibly bauni human being, you eventually started doing the same. So basically do Akhand chaman chamar log aj tk baat waat kiye baghair ek dusre ki stories like kr rahe the...!
+And to your credit, as a very kind and incredibly bauni human being(6 october mein khud ye parh raha hun! changes nahi kr raha!! although i should change it ig but aap bestie pehle ho to I'll just leave it like this), you eventually started doing the same. So basically do Akhand chaman chamar log aj tk baat waat kiye baghair ek dusre ki stories like kr rahe the...!
 
-Then came April 5th.
+Then came April 5th.😋😘 Acha I didnt want to tell you but Ashal ko tumhare baare mein hur se pata chala tha and mujhe is baare mein thore time baad pata chala after following you!
 
 The day that changed everything.
 
-You posted a story about Olivia Rodrigo. Now, let me clarify something. I love Olivia Rodrigo... She's great. But compared to you? I was basically a casual listener i mean mein koi aisa die heart fan nahi uska😭😭 jbke tum uske liye inteha ki pagal ho..!!
+You posted a story about Olivia Rodrigo. Now, let me clarify something. I love Olivia Rodrigo... She's great. But compared to you? I was basically a casual listener i mean mein koi aisa die heart fan nahi uska😭😭 jbke tum uske liye inteha ki pagal ho..!! (Jhoot bolraha tha even in this website😭😭 tumhari story dekhne k baad pehli baar uska gaana suna tha kiunke ashal ne apki story pr reply kia tha😭😭 Although zindagi ki saari beghairtiyon mein se sbse best one thi ye)
 
 I wanted to reply to your story, but there ek beghairti thi.
 
@@ -280,7 +297,7 @@ So, mene tumhe unfollow kia and I followed you again , and somehow you followed 
 
 Yummmmm.
 
-What makes this even funnier is that both Ashal and I replied to your Olivia Rodrigo story. Peak best-friend behavior. Neither of us knew the other had replied. We just independently decided, "Yep, let's both annoy this girl today."
+What makes this even funnier is that both Ashal and I replied to your Olivia Rodrigo story. Peak best-friend behavior. Neither of us knew the other had replied. We just independently decided, "Yep, let's both annoy this girl today."(khulam khulla jhoot😭😭😭😭😭)
 
 You were apparently shocked.
 
@@ -290,7 +307,7 @@ Then we started talking.... Shit bhai Shit...
 
 Now here's where the story gets even more ridiculous.
 
-That day, I had gone somewhere, and Hashir had access to my Instagram account. Instead of behaving like a normal person, this man started talking to you from my account without me knowing.
+That day, I had gone somewhere, and Hashir had access to my Instagram account. Instead of behaving like a normal person, this man started talking to you from my account without me knowing.(ye sach h though)
 
 And it gets worse.
 
@@ -300,23 +317,13 @@ I eventually found out and was like, "What the actual hell are you doing?"
 
 At that point, I realized if I wanted to actually talk to you as myself, I needed to ask smth....
 
-and I asked for your Snapchat..... TUm mujhe kata rahin thi usdin. Thori si pagal wagal ho kia aap.. Agar meri ego hurt hojati usdin to apko mein kabhi milta hi nahi..!!
+and I asked for your Snapchat..... Tum mujhe kata rahin thi usdin. Thori si pagal wagal ho kia aap.. Agar meri ego hurt hojati usdin to apko mein kabhi milta hi nahi..!! (Ego is dead!)
 
 And just like that, the story of how I met my homegirl officially began.
 
 Looking back now, it's crazy.
 
-A random profile on Instagram.
-
-A few story likes.
-
-An Olivia Rodrigo story.
-
-Two best friends accidentally replying at the same time.
-
-A guy secretly using ChatGPT from my account.
-
-And somehow, out of all that chaos, I got you.
+But somehow, out of all these shits happening, I got you.
 
 I still don't understand how everything lined up the way it did, but I'm genuinely grateful it happened. Because what started as random interactions somehow became one of the most important friendships in my life.
 
@@ -346,17 +353,17 @@ At first, we weren't even that close. We were just two people talking regularly,
 
 Then one day, I roasted you a bit.
 
-Now normally, roasting people is one of my favorite hobbies. But the thing is, I wasn't very good at controlling it back then.
+Now normally, roasting people is one of my favorite things to do aap to janti hi ho and the thing is I wasn't very good at controlling it back then.
 
-We were not good friends at that time, and after a while, I started feeling bad.
+We were not good friends at that time, and after a while, I started feeling bad k mujhe aisa nahi krna chahiye tha!.
 
-As you know, I just read the psyche of every person I talk to. I don't know how, but I pick up on things. And I knew you were a soft-hearted person.
+As you know, I just read the psyche of every person I talk to. I don't know how, but I pick up on things. And I knew you were a soft-hearted person jo bohat easily choti si choti cheez se bhi hurt hosaktin hain
 
 Mujhe thora sa bura laga.
 
 So I told you I was sorry.
 
-I think you cried that day thinking about Souvik. You were a bit senti that day, and somehow I figured that out.
+I think you cried that day too. You were a bit senti that day, and somehow I figured that out.
 
 Obviously, I asked! kitna acha admi hun mein😎.
 
@@ -366,21 +373,19 @@ You seemed so innocent. Like genuinely innocent.
 
 Well...
 
-Andha tha mein but as a gentleman I asked you about it.
+Andha tha mein (You my chant aurat😘) but as a gentleman I asked you about it.
 
 And then you started telling me about your life.
 
-Not just a little bit.
-
-Literally everything.
-
 Every major shit.
 
-Every trauma.
+Every trauma. (Now i know it was not all the major shits what you told me)
 
 You told me how bitchy your dadi is. You told me about your bharwe gandu se cousins.
 
-And I swear, I was losing my mind that day... Itni to meri aj tk kisi se nahi jali!!! You're dadi and cousins got one more hater that day
+And I swear, I was losing my mind that day... Itni to meri aj tk kisi se nahi jali!!! You're dadi and cousins got one more hater that day...!
+
+I want to beat their ass up now whenever mujhe yaad ata h! (I'll do it fs!)
 
 Matlab ek bandi ke itne traumas?!
 
@@ -388,13 +393,9 @@ At some point I was just sitting there thinking, "bc drama h kia?"
 
 And honestly?
 
-i swear If I had a sister like you... Mein usko itna sambhal ke rakhta.
+Mujhe bakhuda tumhare bhaiyon pr bhi gussa araha tha but now i know tumne kisi ko bataya hi nahi h warna un jahil k bachon ka mun na pharna is nothing but jahalat
 
-I don't have a sister. But still... mujhe bakhuda tumhare bhaiyon pr bhi gussa araha tha but now i know tumne kisi ko batya hi nahi h warna un jahil k bachon ka mun na parhna is nothing but jahalat
-
-I don't know why, but that was genuinely what I felt.
-
-Nobody deserves half the things you've had to deal with... but dw you have me now!! or ab to tumhari zubaan bhi itni chalti h ASTAGHFIRULLAH...!!😶🙄 to ab even if kisi ne tumhe tang bhi kia I'll deal with it...!! Fenk me later🥱
+Nobody deserves even half of the things you've had to dealt with... but dw you have me now!! or ab to tumhari zubaan bhi itni chalti h ASTAGHFIRULLAH...!!😶🙄 to ab even if kisi ne tumhe tang bhi kia I'll deal with it...!! Fenk me later🥱
 
 Then, two days later, we were talking again as usual.
 
@@ -407,10 +408,6 @@ Anyways You were like, "ACHAAA and you started testing my skills."
 You showed me the screenshots. The screenshots of Mahi and Souvik talking.
 
 I looked at them. I told you what I thought but bohat hi dhake chupe alfazo mein.
-
-But honestly? Those screenshots were screaming that Mahi and Souvik were in love.
-
-I didn't say it that directly because unlike you, mein apna dimagh use krleta hun..!!
 
 Then you told me the whole story.
 
@@ -444,25 +441,13 @@ Like literally on a random day you chose me as your HB... Ajeeb dimagh kharab bu
 
 And somehow, without either of us realizing it, our friendship became absolutely goated.
 
-It's honestly funny when I think about it.
-
-A random Instagram follow.
-
-Random conversations.
-
-Random trauma dumps.
-
-Random roasts.
-
-And somehow all of that turned into one of the best friendships I've ever had.
-
 I still don't know how you managed to become this important to me.
 
 But somehow, you did.
 
 And that's probably my favorite random thing that's ever happened.
 
-I love you Mahe for being the Tea spiller and also for har waqt bakwas krte rehna!!!
+I love you Syeda Mah-e-kana kazmi for being the Tea spiller and also for har waqt bakwas krte rehna!!!
 `,
     signoff: "— Youre my homegirl for life",
   },
@@ -479,11 +464,12 @@ I love you Mahe for being the Tea spiller and also for har waqt bakwas krte rehn
     
     Mere liye last year Doston mein Ashal k baad sirf hashir ka naam ata tha!! Like Ashal was my bwstest friend and hashir was second best but now Ashal and you both are top of the list!! 
     
-    I literally cant choose between you and ashal!! And I dont even want to!! Youre the person jisko mein uthte sath hi jawab deta hun!! but youre not nerdy enough to understand what you mean to me!!!
+    I literally cant choose between you and ashal!! (I can now! I'll choose you fs! Ashal khud maanjaega is baat pr ik) Although I dont even want to!! Youre the person jisko mein uthte sath hi jawab deta hun! You're the first thought of my day! but you're not nerdy enough to understand what you mean to me!!!
     
-    Always stay in my life!!! kahin jana nahi warn mujhe bohat ghussa ata h!! I mean it!! You're what warisha was to ashal when he didnt had a crush on her!! honestly our friendship is more goated than there's
+    Always stay in my life!!! kahin jana nahi warna mujhe bohat ghussa ata h!! I mean it!! You're what warisha was to ashal when he didnt had a crush on her!! honestly our friendship is more goated than there's
 
-    Last of all!! yk my routine na! 8:00 to 2:30 university ----> then office (3-7) -----> directly to aptech (7-9) -----> then gym 10:30 baje ghar mein ghusta hun mein! Is life mein you just by staying makes a huge difference! Meri saari emotional distress khatam krdeti ho just by msging once! Chahe wo kuch bhi ho! I'm not lying when i say you enhance me just by staying
+    Updating it(cant leave anything missing): Last of all!! yk my routine na! 8:00 to 2:30 university ----> then office (3-7) -----> directly to aptech (7-9) -----> then gym 10:30 baje ghar mein ghusta hun mein! Is life mein you just by staying makes a huge difference! Meri saari emotional distress khatam krdeti ho just by msging once! Chahe wo kuch bhi ho! I'm not lying when i say you enhance me just by staying
+    
     Bohat likh dia ajeeb!! Itne saare Efforts mujhse nikalwana is not a piece of cake!! know you're worth Mahe`,
     signoff: "— I love you... and I'm always proud of you",
   },
@@ -494,7 +480,7 @@ I love you Mahe for being the Tea spiller and also for har waqt bakwas krte rehn
     peek: "The best things",
     body: `**What you taught me**
 
-You taught me so many things without even realizing it. You taught me how to treat women right, how to give proper princess treatment, and that being a little *run mureed* isn't actually such a bad thing 😭. You taught me how important emotional support is, how to actually be there for someone, listen to them, and make them feel understood.
+You taught me so many things without even realizing it. You taught me how to treat women right thora bohat ata tha mujhe pehle se huhhhhh, how to give proper princess treatment, and that being a little *run mureed* isn't actually such a bad thing 😭. You taught me how important emotional support is, how to actually be there for someone, listen to them, and make them feel understood.
 
 You’ve also taught me that caring about someone means wanting to see them become better, and somehow, you've made me want to be a better person too. You’ve shown me that friendships aren't just about having fun and talking nonsense (although we do A LOT of that), but also about getting better(I'm the best though💃) and being there when things aren't so easy.
 
@@ -504,7 +490,7 @@ So thank you for teaching me all of that with alot of zillat and tafree. You jus
     signoff: "— You're a great teacher BTW",
   },
 
-   {
+  {
     seal: "🎎",
     title: "My Emotional wall",
     peek: "NAHI YAR",
@@ -514,14 +500,14 @@ Mein na chamar hi acha tha!! Saare heartbreaks! Saare emotional distress! Saari 
 
 There was no one i could share these with!! I'm ok jb bhi mera mazak urta h mere spots pr ya kisi or cheez pr because i have those shits!! And you made me such a shitty guy!! Jo ab sb share krdeta h tumse!! Ykw! mein Aj tk ashal ko nahi batapaya wht i feel!! How i feel!! Its only you jisse mein khul kr baat kr pata hun!!
 
-I DONT KNOW WHY!!!?? WHY THE FUCK MEIN AISA HOGAYA HUN!?? I was not ok with that life ik! JB koi sunne ko hi nahi tha! Ashal bhai h mera kia batata usko!! BHai tum bhi ho but tum HG ho!! I dont like sharing anything but aap baat nikalwa leti ho and mood sahi bhi krdeti ho!! Thankyou for being in my life!!(han hai pocket pr ye wala apne pass rakho)..
+I DONT KNOW WHY!!!?? WHY THE FUCK MEIN AISA HOGAYA HUN!?? I was not ok with that life ik! JB koi sunne ko hi nahi tha! Ashal bhai h mera kia batata usko!! Bhai tum bhi ho but tum HG ho!! I dont like sharing anything but aap baat nikalwa leti ho and mood sahi bhi krdeti ho!! Thankyou for being in my life!!(han hai pocket pr ye wala apne pass rakho)..
 
-I wish you would have came early in my life! meri 100's of nights in which i was depressed unse jaan chut jaati!! I love you as much as you cant count!!
+I wish you would have came early in my life! meri 100's of nights in which i was depressed unse jaan chut jaati!! I love you more than anyone!!
 `,
     signoff: "— THANK YOUUUUUUUUUU>>>>>3",
   },
 
-   {
+  {
     seal: "💔",
     title: "US",
     peek: "FACTS",
@@ -533,19 +519,20 @@ The amount of joy i got in last 6 months is fs nothing less to the joy i got in 
 
 I want us to have the best moments of life till we are hb and hg!! I want us to make as much memories as we could to make sure usme life katjae!! And i want our END to be not like your END with Anumta or Rijja!! I dont want to leave you like that!! AND PLEASE AAP BHI EK BAAR IS GHAREEB KA SOCHLENA😭😭...
 
-Na bhi socho to naraz hue baghair ek baar inform krdena!! 
+Na bhi socho to naraz hue baghair ek baar inform! (Pata nahi kiun likha tha ye mene! bakwas h sb😭😭😭 We are till we both die😏😋)
 `,
     signoff: "— WE ARE SO MAIN CHARACHTER VIBE BTW😜",
   },
 
-    
-     {
+  {
     seal: "😭",
     title: "We knew",
     peek: "18 September",
     body: `**I'll never be OK!**
 
-I knew our end would not be OK! Tumhara curse bohat chota h mere aage! meri life fuck nahi hui tumhari hogai yr! Mein life mein tumhari wall banna chahta tha jispr se sbko guzarna pare tumhe kuch kehne k liye but I never knew k agar tum us wall k peeche se hatgain to this wall would be shattered! Mein chudgaya hun Mak-e-kana! Itna sochraha hun abhi tumhare baare mein k you cant imagine!
+(Listen up! whatever I said in it! I hope aap ye na samjhen k koi blame kr raha mein or smth! Ghalti hum dono mein se kisi ki nahi thi! It was nothing but that day! I'm sorry for writing it mene sirf isme ye batana chahraha hun k  tum itni THE MAIN IDEA WAS: Aap itni important ho k agar aap na ho to I'll not be ok!!)
+
+I didn't knew our end would be like this! Tumhara curse bohat chota h mere aage! meri life fuck nahi hui tumhari hogai yr! Mein life mein tumhari wall banna chahta tha jispr se sbko guzarna pare tumhe kuch kehne k liye but I never knew k agar tum us wall k peeche se hatgain to this wall would be shattered! Mein chudgaya hun Mak-e-kana! Itna sochraha hun abhi tumhare baare mein k you cant imagine!
 
 But OK I just want you to be happy and do the best in life! I'm sorry apne meri wajah se bohat kuch saha hai!! These were the best 5 months of my life! I told you na no one knows Fasih and i told you k mein apni jaanu ko bataunga! Hn I will tell it to you!! Mein chahta hun jb mein marne wala hun kisi ko to bata paun k hn duniya mein there is one human jo janta h fasih kis chutiye ka naam hai!!
 
@@ -553,12 +540,12 @@ Meri zindagi kabhi itne maze ki nahi thi nor rahegi!! I'll never forget you! aap
 
 Honestly mein ye nahi chahta! Mein chahta hun aap saare ghum duniya k bhula do bs mujhe na bhula pao! I'm selfish Ik! but kia karun pata nahi kia hoga! fuck my feelings! Ik aap akele is duniya ko handle nahi krsaktin for now! I want k aap seekh jao ye and hyper na hua karo itna! Bilkul insaan bnjao! Anyways pr phir bhi I want k mein apke dil mein humesha rahun! Ye spot nahi chorna mujhe kabhi bhi!! Mein nahi overcome krsakta is cheez ko! Although I have a gut feeling k aap wapis ajaogi mahe ho jaanu ho meri, you're not warisha! Although agar aap na bhi ain tb bhi you'll always be in my heart! Apni zindagi k kisi bhi time pr aap mujhe msg karengi, I'll always be available for you!!!
 
-But OK! Please wapis Ajana! I'll wait for you!,
+But OK! Please wapis Ajana! I'll wait for you! (ajeeb chutiyape ka hua wa tha mein usdin!)
 `,
-signoff: "— I'll Miss My HG😜",
+    signoff: "— I'll Miss My HG😜",
   },
 
-   {
+  {
     seal: "🥴",
     title: "Just You",
     peek: "Defining someone who was born on 24th of October",
@@ -576,12 +563,12 @@ Your smile can genuinely change my mood. Your voice can make an ordinary convers
 
 So when I say you're the most beautiful girl, I don't mean you're competing with every other girl in the world. It means or larkion se apka comparision ho ye unki aukaat hi nahi yayayyayayayyyyy😋
 
-Ye chand sa roshan chehra! Ankhon ka rung sunhera (thora sa),
+Ye chand sa roshan chehra! Ankhon ka rung sunhera (thora sa)
 `,
     signoff: "— I love you the most :)",
   },
 
-   {
+  {
     seal: "🥴",
     title: "Just You (2)",
     peek: "Defining someone who was born on 24th of October",
@@ -598,11 +585,10 @@ Ye chand sa roshan chehra! Ankhon ka rung sunhera (thora sa),
     Hn one more thing!!! i love the way how you walk XD!! kiunke USSSS hogaya! mein bhi teda chalta hun XD! mujhe bhi chalane k liye koi saath mein hona is important jo mujhe pakar kr seedha kare!😭😭 We should go on a tedi walk btw😙
     
     
-    Anyways TING TING TADAO,
+    Anyways TING TING TADAO
 `,
-signoff: "— I love you the mostestestest x infinity :)",
+    signoff: "— I love you the mostestestest x infinity :)",
   },
-
 ];
 
 /* ---------- Fasih letters ---------- */
@@ -668,7 +654,7 @@ function initLettersPage() {
     grid.appendChild(card);
   });
 
-    if (fasihGrid) {
+  if (fasihGrid) {
     fasihLetters.forEach((letter) => {
       const card = document.createElement("div");
       card.className = "envelope";
@@ -692,8 +678,6 @@ function initLettersPage() {
       fasihGrid.appendChild(card);
     });
   }
-   
-  
 
   function closeModal() {
     modal.classList.remove("is-active");
@@ -711,16 +695,16 @@ function initLettersPage() {
 /* Edit these little notes freely — they pop out of the wish jar. */
 const wishNotes = [
   "May your year be as goated as you are 🍰",
-  "You deserve this universe! Period...🎂",
+  "You deserve the universe! Period...🎂",
   "Another year of being iconic. yayayayyay!! 👑",
-  "I hope aap humesha giggle krti rahein! 😆",
+  "I hope aap humesha muskurati rahein! 😆",
   "May I get the chance of being your bestfriend and lover in every universe 💌",
   "You're not allowed to be sad next year. Rules are rules 🥱",
   "Hope your year is full of cool stuff that you love! (including me👅) ✨",
   "You make the world alot cuter just by being in it 🐰",
   "You're litr the light when I'm surrounded by dark shadows!! Be like it🥺",
-  "Eat. Laugh. Repeat. It's your day, jaanu 🌙",
-  "Sending you a thousand virtual hugs and a forehead kiss😙🤗",
+  "Yk! Little me always wanted someone like you 😭",
+  "I'll run out of paper long before I run out of words to write about you😙🤗",
   "Your year ahead is going to be so cool, I can feel it 🌷",
 ];
 
@@ -807,5 +791,3 @@ document.addEventListener("DOMContentLoaded", () => {
   initLettersPage();
   initWishPage();
 });
-
-
