@@ -949,6 +949,313 @@ p {
 }
 
 /* =========================================================
+   ONE LAST THING — final surprise scene (wish.html)
+   Uses the same colours, fonts and keyframes (glow, pulse, fall)
+   as the rest of the site.
+   ========================================================= */
+
+/* the button at the bottom of the wish page */
+.final-surprise {
+  text-align: center;
+  margin: 1rem 0 3rem;
+}
+.final-btn {
+  font-family: var(--font-script);
+  font-size: 1.6rem;
+  padding: 0.6em 1.6em;
+  animation: final-breathe 4s ease-in-out infinite;
+}
+@keyframes final-breathe {
+  0%, 100% { box-shadow: var(--shadow-soft), 0 0 14px rgba(240, 200, 105, 0.15); }
+  50% { box-shadow: var(--shadow-soft), 0 0 34px rgba(240, 200, 105, 0.45); }
+}
+
+/* the full-screen night scene */
+.last-scene {
+  position: fixed;
+  inset: 0;
+  z-index: 70;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: none;
+  background:
+    radial-gradient(ellipse at 50% -5%, rgba(201, 182, 228, 0.3), transparent 55%),
+    radial-gradient(ellipse at 50% 0%, var(--plum) 0%, var(--night) 55%, var(--night-deep) 100%);
+  /* closed: invisible and not clickable or tabbable */
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1s ease, visibility 0s linear 1s;
+}
+.last-scene.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: all;
+  transition: opacity 1s ease, visibility 0s;
+}
+body.scene-open {
+  overflow: hidden; /* page behind doesn't scroll while the scene is open */
+}
+
+/* twinkling stars + drifting petals (fixed, so they stay while she scrolls) */
+.last-sky,
+.last-petals {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.last-sky { z-index: 0; }
+.last-petals { z-index: 1; }
+.last-star {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 6px rgba(240, 200, 105, 0.8);
+  opacity: 0.2;
+  animation: last-twinkle 4s ease-in-out infinite;
+}
+@keyframes last-twinkle {
+  0%, 100% { opacity: 0.15; transform: scale(0.8); }
+  50% { opacity: 0.95; transform: scale(1.3); }
+}
+
+.last-close {
+  position: fixed;
+  top: max(1rem, env(safe-area-inset-top));
+  right: max(1rem, env(safe-area-inset-right));
+  z-index: 5;
+  min-height: 44px;
+  background: rgba(20, 11, 34, 0.55);
+  backdrop-filter: blur(6px);
+  border: 1.5px solid var(--violet);
+  color: var(--lilac);
+  padding: 0.4em 1.1em;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.last-close:hover {
+  background: var(--violet);
+  color: #fff;
+}
+
+.last-content {
+  position: relative;
+  z-index: 2;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 4.5rem clamp(1.2rem, 5vw, 2rem) max(4rem, env(safe-area-inset-bottom));
+  text-align: center;
+}
+.last-moon {
+  font-size: clamp(3.5rem, 12vw, 5.5rem);
+  line-height: 1;
+  margin-bottom: 1rem;
+  animation: glow 4s ease-in-out infinite; /* same moon glow as the home page */
+}
+.last-title {
+  font-style: italic;
+  font-size: clamp(1.9rem, 6vw, 2.8rem);
+  line-height: 1.25;
+  text-shadow: 0 0 26px rgba(240, 200, 105, 0.25);
+  margin-bottom: 0;
+}
+
+/* each piece fades up gently, one after another (delays are set in script.js) */
+.last-scene .reveal {
+  opacity: 0;
+  transform: translateY(14px);
+}
+.last-scene.is-revealed .reveal {
+  animation: last-rise 1s ease forwards;
+}
+@keyframes last-rise {
+  to { opacity: 1; transform: none; }
+}
+
+/* the letter */
+.last-letter {
+  text-align: left;
+  margin-top: 2rem;
+  padding: clamp(1.6rem, 5vw, 2.8rem);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(197, 150, 220, 0.3);
+  border-radius: var(--radius-soft);
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow-soft), var(--shadow-glow);
+}
+.last-letter p {
+  font-size: clamp(1.02rem, 2.8vw, 1.12rem);
+  line-height: 1.9;
+  margin: 0 0 1.2em;
+  color: #f1e8fa;
+}
+.last-letter .letter-greeting {
+  font-family: var(--font-script);
+  font-size: 1.9rem;
+  line-height: 1.2;
+  color: var(--blush);
+}
+.last-letter .letter-signoff {
+  font-family: var(--font-script);
+  font-size: 1.7rem;
+  color: var(--gold);
+  text-align: right;
+  margin: 1.8rem 0 0;
+}
+
+/* voice note player */
+.voice-card {
+  margin-top: 2.2rem;
+  padding: clamp(1.4rem, 4vw, 2rem);
+  text-align: left;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(240, 200, 105, 0.35);
+  border-radius: var(--radius-soft);
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow-soft);
+}
+.voice-card__title {
+  font-family: var(--font-script);
+  font-size: clamp(1.6rem, 5.4vw, 2.1rem);
+  line-height: 1.25;
+  color: var(--gold);
+  margin: 0 0 1.1rem;
+  text-align: center;
+}
+.voice-player {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.voice-btn {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--blush), var(--lilac));
+  color: var(--night-deep);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.25s ease;
+}
+.voice-btn:hover { transform: scale(1.06); }
+.voice-btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+.voice-btn svg {
+  width: 26px;
+  height: 26px;
+  fill: currentColor;
+}
+.voice-btn .icon-pause { display: none; }
+.voice-card.is-playing .icon-play { display: none; }
+.voice-card.is-playing .icon-pause { display: block; }
+.voice-card.is-playing .voice-btn { animation: voice-glow 2.4s ease-in-out infinite; }
+@keyframes voice-glow {
+  0%, 100% { box-shadow: var(--shadow-soft), 0 0 0 0 rgba(242, 166, 196, 0.45); }
+  50% { box-shadow: var(--shadow-soft), 0 0 0 14px rgba(242, 166, 196, 0); }
+}
+
+.voice-track {
+  flex: 1;
+  min-width: 0;
+}
+.voice-seek {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 28px; /* easy to tap */
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+  --progress: 0%; /* updated by script.js */
+}
+.voice-seek::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 6px;
+  background: linear-gradient(to right, var(--blush) var(--progress), rgba(255, 255, 255, 0.18) var(--progress));
+}
+.voice-seek::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  margin-top: -5px;
+  border-radius: 50%;
+  border: none;
+  background: var(--gold);
+  box-shadow: 0 0 10px rgba(240, 200, 105, 0.7);
+}
+.voice-seek::-moz-range-track {
+  height: 6px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.18);
+}
+.voice-seek::-moz-range-progress {
+  height: 6px;
+  border-radius: 6px;
+  background: var(--blush);
+}
+.voice-seek::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: none;
+  background: var(--gold);
+  box-shadow: 0 0 10px rgba(240, 200, 105, 0.7);
+}
+.voice-seek:focus-visible { outline: 2px solid var(--lilac); outline-offset: 4px; border-radius: 6px; }
+.voice-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--lilac);
+}
+.voice-note {
+  margin: 1rem 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--lilac);
+}
+/* shown if the audio file hasn't been added yet */
+.voice-card.is-unavailable .voice-player {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/* the closing message */
+.last-ending {
+  max-width: 34em;
+  margin: 2.6rem auto 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.2rem, 3.8vw, 1.5rem);
+  line-height: 1.7;
+  color: var(--starlight);
+}
+.last-heart {
+  display: inline-block;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+@media (max-width: 640px) {
+  .last-content { padding-top: 4.2rem; }
+  .voice-player { gap: 0.8rem; }
+  .voice-btn { width: 58px; height: 58px; }
+}
+
+/* =========================================================
    RESPONSIVE — tablets & phones
    ========================================================= */
 

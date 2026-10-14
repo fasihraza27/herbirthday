@@ -784,10 +784,182 @@ function initWishPage() {
   });
 }
 
+/* ---------- 6c. "One last thing" final surprise (wish page) ---------- */
+/* The scene lives in wish.html (#last-scene). This code only opens/closes it,
+   adds the stars + petals, and runs the voice-note player.
+   Your recording goes in:  audio/my-voice.mp3  (or my-voice.m4a) */
+function initFinalSurprise() {
+  const openBtn = document.getElementById("final-btn");
+  const scene = document.getElementById("last-scene");
+  if (!openBtn || !scene) return;
+
+  const closeBtn = document.getElementById("last-close");
+  const reduceMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
+  const isPhone = window.innerWidth < 600;
+
+  /* --- stars inside the scene --- */
+  const sky = document.getElementById("last-sky");
+  const starCount = isPhone ? 30 : 55;
+  for (let i = 0; i < starCount; i++) {
+    const star = document.createElement("span");
+    star.className = "last-star";
+    star.style.left = Math.random() * 100 + "%";
+    star.style.top = Math.random() * 100 + "%";
+    const size = 2 + Math.random() * 2;
+    star.style.width = size + "px";
+    star.style.height = size + "px";
+    star.style.animationDuration = 3 + Math.random() * 4 + "s";
+    star.style.animationDelay = Math.random() * 5 + "s";
+    sky.appendChild(star);
+  }
+
+  /* --- floating petals inside the scene (same look as the site's petals) --- */
+  const petalLayer = document.getElementById("last-petals");
+  if (!reduceMotion) {
+    const emojis = ["🌸", "💮", "✨", "🌷"];
+    const petalCount = isPhone ? 7 : 12;
+    for (let i = 0; i < petalCount; i++) {
+      const petal = document.createElement("span");
+      petal.className = "petal";
+      petal.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+      petal.style.left = Math.random() * 100 + "%";
+      petal.style.setProperty("--drift", Math.random() * 120 - 60 + "px");
+      petal.style.fontSize = 0.9 + Math.random() * 1.0 + "rem";
+      petal.style.animationDuration = 14 + Math.random() * 12 + "s";
+      petal.style.animationDelay = Math.random() * 12 + "s";
+      petalLayer.appendChild(petal);
+    }
+  }
+
+  /* --- open / close --- */
+  let lastFocus = null;
+  let closeTimer = null;
+
+  function openScene() {
+    clearTimeout(closeTimer);
+    lastFocus = document.activeElement;
+
+    // each piece of the scene fades in a little after the one before it
+    scene.querySelectorAll(".reveal").forEach((el, i) => {
+      el.style.animationDelay = 0.6 + i * 0.3 + "s";
+    });
+
+    scene.scrollTop = 0;
+    scene.setAttribute("aria-hidden", "false");
+    document.body.classList.add("scene-open");
+    scene.classList.add("is-open", "is-revealed");
+    scene.focus({ preventScroll: true });
+  }
+
+  function closeScene() {
+    if (!scene.classList.contains("is-open")) return;
+    voiceAudio.pause(); // stop the voice when she leaves
+    scene.classList.remove("is-open");
+    scene.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("scene-open");
+    // wait for the fade-out, then reset so it can play again next time
+    closeTimer = setTimeout(() => scene.classList.remove("is-revealed"), 1000);
+    if (lastFocus) lastFocus.focus({ preventScroll: true });
+  }
+
+  openBtn.addEventListener("click", openScene);
+  closeBtn.addEventListener("click", closeScene);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeScene();
+  });
+
+  /* --- voice note player (never autoplays) --- */
+  const voiceCard = document.getElementById("voice-card");
+  const voiceAudio = document.getElementById("voice-audio");
+  const playBtn = document.getElementById("voice-btn");
+  const seek = document.getElementById("voice-seek");
+  const currentEl = document.getElementById("voice-current");
+  const durationEl = document.getElementById("voice-duration");
+  const voiceNote = document.getElementById("voice-note");
+
+  function formatTime(seconds) {
+    if (!isFinite(seconds)) return "0:00";
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return m + ":" + (s < 10 ? "0" : "") + s;
+  }
+
+  function updateProgress() {
+    const percent = voiceAudio.duration
+      ? (voiceAudio.currentTime / voiceAudio.duration) * 100
+      : 0;
+    seek.value = percent;
+    seek.style.setProperty("--progress", percent + "%");
+    currentEl.textContent = formatTime(voiceAudio.currentTime);
+  }
+
+  // If the recording hasn't been added yet, show a gentle message instead of a broken player.
+  function showVoiceUnavailable() {
+    voiceCard.classList.remove("is-playing");
+    voiceCard.classList.add("is-unavailable");
+    voiceNote.hidden = false;
+    playBtn.disabled = true;
+    seek.disabled = true;
+  }
+
+  playBtn.addEventListener("click", () => {
+    if (voiceAudio.paused) {
+      voiceAudio.play().catch((err) => {
+        if (err && err.name === "NotSupportedError") showVoiceUnavailable();
+      });
+    } else {
+      voiceAudio.pause();
+    }
+  });
+  seek.addEventListener("input", () => {
+    if (voiceAudio.duration) {
+      voiceAudio.currentTime = (seek.value / 100) * voiceAudio.duration;
+    }
+    seek.style.setProperty("--progress", seek.value + "%");
+  });
+
+  voiceAudio.addEventListener("play", () => voiceCard.classList.add("is-playing"));
+  voiceAudio.addEventListener("pause", () => voiceCard.classList.remove("is-playing"));
+  voiceAudio.addEventListener("ended", () => {
+    voiceCard.classList.remove("is-playing");
+    voiceAudio.currentTime = 0;
+    updateProgress();
+  });
+  voiceAudio.addEventListener("timeupdate", updateProgress);
+  function showDuration() {
+    durationEl.textContent = formatTime(voiceAudio.duration);
+  }
+  voiceAudio.addEventListener("loadedmetadata", showDuration);
+  voiceAudio.addEventListener("durationchange", showDuration);
+  if (voiceAudio.readyState >= 1) showDuration(); // metadata may already be loaded
+
+  // Notice a missing file: when every <source> fails, or when we check shortly after load.
+  const sources = voiceAudio.querySelectorAll("source");
+  let failedSources = 0;
+  sources.forEach((source) => {
+    source.addEventListener("error", () => {
+      failedSources++;
+      if (failedSources === sources.length) showVoiceUnavailable();
+    });
+  });
+  // (the browser can report a missing file before the listeners above exist)
+  if (voiceAudio.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) {
+    showVoiceUnavailable();
+  }
+  setTimeout(() => {
+    if (voiceAudio.networkState === HTMLMediaElement.NETWORK_NO_SOURCE) {
+      showVoiceUnavailable();
+    }
+  }, 1500);
+}
+
 /* ---------- 7. Run relevant init on load ---------- */
 document.addEventListener("DOMContentLoaded", () => {
   initLoginPage();
   initGalleryPage();
   initLettersPage();
   initWishPage();
+  initFinalSurprise();
 });
