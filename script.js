@@ -963,3 +963,71 @@ document.addEventListener("DOMContentLoaded", () => {
   initWishPage();
   initFinalSurprise();
 });
+
+
+const letterContent = [
+  {
+    className: "letter-greeting reveal",
+    text: "My girl,"
+  },
+  {
+    className: "reveal",
+    text: "I wanted to write this one slowly, and without any jokes hiding in it."
+  },
+  {
+    className: "reveal",
+    text: "There will be days when you forget how loved you are. Days when you're tired, when everything feels heavy, when you feel like you're not enough, or when you're just feeling low for any reason. On those days, I want these words to be waiting for you right here."
+  },
+  {
+    className: "reveal",
+    text: "You deserve love. Not the kind you have to earn by being perfect, or strong, or cheerful. Just love, exactly as you are. (Although you're perfect 😋 Perfect for me 👉👈)"
+  },
+  {
+    className: "reveal",
+    text: "You deserve kindness, from the people around you and from yourself too. Please be as gentle with yourself as you would be with someone you care about."
+  },
+  {
+    className: "reveal",
+    text: "You deserve happiness, the real kind of happiness — the kind you get when you drink Shakespresso. And you deserve peace, quiet days when your heart gets to rest and you don't have to worry about anyone disturbing your mental peace!"
+  },
+  {
+    className: "reveal",
+    text: "You don't have to pretend to be okay all the time (although you mostly do). You don't have to smile when you don't feel like it, explain every feeling, or have everything figured out. If today is a heavy day, then it's okay for it to be a heavy day."
+  },
+  {
+    className: "reveal",
+    text: "Your feelings matter. All of them. They're neither too much nor a burden. You never have to carry them quietly because I'll always be here with you!"
+  },
+  {
+    className: "reveal",
+    text: "So, if you ever forget everything else, remember this: you are loved, you are enough, and you matter."
+  },
+  {
+    className: "reveal",
+    text: "You are the absolute GOAT, and there will always be a dimagh se pagal sanki who loves your eyes and is all yours! JUST YOURS..!!"
+  },
+  {
+    className: "letter-signoff reveal",
+    text: "Happy birthday, Jaanu, Jaan or Jaanejaan.\n\n— Fasih"
+  }
+];
+
+function loadLetter() {
+  const letter = document.getElementById("last-letter");
+
+  if (!letter) return;
+
+  letter.replaceChildren();
+
+  letterContent.forEach((paragraph) => {
+    const p = document.createElement("p");
+
+    p.className = paragraph.className;
+    p.textContent = paragraph.text;
+
+    letter.appendChild(p);
+  });
+}
+
+loadLetter();
+
