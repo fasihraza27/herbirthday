@@ -604,7 +604,24 @@ Ye chand sa roshan chehra! Ankhon ka rung sunhera (thora sa)
 
     Bs October mein cool rakhlein apni Jaanu! Upcoming times will be super good!! I'm super sure abt it!
 `,
-    signoff: "— YOU'RE DEFINITELY MY FIRST AND MY LAST LOVE",
+    signoff: "— YOU'RE DEFINITELY MY FIRST AND MY LAST LOVE :)",
+  },
+
+  {
+    seal: "🥺",
+    title: "What you did for me once again",
+    peek: "I'm so sorry Jaanu i still hurted you!",
+    body: `** Being a guy! Yes i was a bit jealous of Souvik! i wasnt jealous! I was overthinking alot (was a bit tensed too! Shayad hurt bhi tha! Actually hurt nahi tha mujhe aap pr andha bharosa hai! I just dk what was that feeling!)....😭😭😣
+
+    But what you did! i genuinely cried while reciting Ziyarat e Ashura! I was like what good i did in past! Kiski duaein lagi hain k I got the absolute best from every aspect! I'm so grateful to life for giving me you! 
+
+    I wasnt searching for love! I wasnt litr! Bahar se total bakchodion mein laga hua tha! Inner Fasih knew he have no one who genuinely cares about him! But on a random 5th april you came into my life! Took me out of hell! Made me feel loved! Ill always be in debt of you!
+    
+    Jaanu tension na lia karein! thore din ki baat hai! ye saari tensions khatam hojaengi and apki life bohat haseen bnjaegi! Ill keep praying for you! I'm sorry for not being upto your expectations and disappointing you! I'll never do anything like this again! 
+
+    I love you more than anyone could! i dont know if I'm the right person for you yet but Ill do work on myself and become perfect for you! I'll keep loving you and you only! No one else is worth it!!!!!!!
+   `,
+    signoff: "— ALWAYS MY JAANU! ALWAYS MY JAAN! IN TOTAL JANE JAHAN",
   },
 ];
 
