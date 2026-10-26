@@ -589,6 +589,23 @@ Ye chand sa roshan chehra! Ankhon ka rung sunhera (thora sa)
 `,
     signoff: "— I love you the mostestestest x infinity :)",
   },
+
+  {
+    seal: "😞",
+    title: "Ghalti Hogai",
+    peek: "I'm sorry jaanu! I too never expected myself to hurt you",
+    body: `**I honestly know how to console you but idk why mera dimagh chalna band hogaya tha ghalat time pr! I'm sorry i fucked up huge time!
+
+    Jaanu mujhe wese itni neend nahi aati but aaj kl because mene nashe chore hue hain + dawa chalrahi 500mg hai wo! Neend baghair warning ajati hai! 
+
+    Im sorry jaanu! was just telling you bahana nahi deraha tha! Ik im guilty! and mein poora try karunga ab ghalti na ho! i really wanted to be perfect for you but sorry jaanu! Ghalti se mard hi paida hua hun! thora sa dimaghi sanki to mein bhi hun! i fucked up! but I assure you iske baad ill make sure aisa kuch na ho! (would have promised but tut jata hai yr😔😭) Although it wont happen ever again!!
+
+    Jaanu mene October theory k baare mein parha! Please 5 din ka bacha hai October meri Zindagi se apne bond nahi khatam hone dijiyega! I'm really afraid to lose you! I'm sorry! Ek baar i get to marry you! Har ek bande jisne apko tang kia hai in life sbse badle lunga without getting a sense of anxiousness k Papa kia kahenge as I'll be your guardian then! Minhal bhi bina pitai pitega!
+
+    Bs October mein cool rakhlein apni Jaanu! Upcoming times will be super good!! I'm super sure abt it!
+`,
+    signoff: "— YOU'RE DEFINITELY MY FIRST AND MY LAST LOVE",
+  },
 ];
 
 /* ---------- Fasih letters ---------- */
